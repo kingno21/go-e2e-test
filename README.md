@@ -2,6 +2,18 @@
 
 # run
 
+## dependency
+```
+# install gvm
+https://github.com/moovweb/gvm
+
+brew install dep
+
+gvm install 1.10.3
+gvm use 1.10.3 --default
+
+dep ensure
+```
 ## clone
 ```
 mkdir -p go/src
